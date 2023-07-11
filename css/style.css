@@ -5,17 +5,21 @@
 }
 /* header*/
 header{
-  background-image: url(./img/pattern.pgn);
-  background-size: 400px, 150px;
-	background-repeat: repeat;
-	background-position: top;
-	background-color: rgb(78,160,255);
-	height: 100px;
+  background-image: url(../img/pattern.png);
+  background-size: 30%;
+  background-color: #4ea0ff;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
+header #heder-logo img{
+  width: 200px;
+}
+
 .logo{
   max-width: 200px;
 	position: relative;
-	top: 40px;
+	top: 20px;
 	left: 10px;
 }
 /*titolo*/
@@ -57,3 +61,49 @@ main {
 span {
 	background-color: yellow;
 }  
+/* lista */
+
+ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 30px; 
+}
+
+ul > li {
+	list-style: circle;
+}
+
+table {
+	margin-bottom: 10px;
+	border-spacing: 0px;
+}
+
+thead {
+	background-color: rgb(32,169,229);
+	color: white;
+	font-weight: bold;
+}
+
+tbody > tr:nth-of-type(1), 
+tbody > tr:nth-of-type(3)
+{
+	background-color: rgb(177,229,242);
+}
+
+td {
+	min-width: 300px;
+}
+
+
+.extrasTitle {
+	color: grey;
+	margin-bottom: 10px;
+}
+
+
+.video h3 {
+	color: white;
+	position: relative;
+	left: 10px;
+	bottom: 200px;
+}
