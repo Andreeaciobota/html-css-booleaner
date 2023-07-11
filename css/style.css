@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+/* header*/
+header{
+  background-image: url(./img/pattern.pgn);
+  background-size: 400px, 150px;
+	background-repeat: repeat;
+	background-position: top;
+	background-color: rgb(78,160,255);
+	height: 100px;
+}
+.logo{
+  max-width: 200px;
+	position: relative;
+	top: 40px;
+	left: 10px;
+}
+/*titolo*/
+.title{
+  margin-top: 20px;
+	margin-bottom: 20px;
+}
+h1{
+  font-size: 30px;
+}
+.author{
+  font-size: large;
+}
+.author > a {
+  text-decoration: none;
+	color: rgb(78,160,255);;
+}
+	.data {
+    text-decoration: none; color:  rgb(78,160,255)
+  }
+  .date {
+    font-size: smaller;
+  }
+  /*foto*/
+  .caption { font-size: smaller;
+  }
+  /* Articolo  */
+
+main {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.article {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+span {
+	background-color: yellow;
+}  
